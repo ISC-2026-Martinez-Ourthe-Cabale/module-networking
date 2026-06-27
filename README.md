@@ -38,6 +38,7 @@ Recursos que crea
 | `public_subnet_ids` | Lista de IDs de subnets públicas |
 | `private_app_subnet_ids` | Lista de IDs de subnets privadas de APP |
 | `private_db_subnet_ids` | Lista de IDs de subnets privadas de DB |
+| `nat_gateway_ids` | Lista de IDs de los NAT Gateways (uno por AZ) |
 
 ## Uso como módulo
 ```hcl
