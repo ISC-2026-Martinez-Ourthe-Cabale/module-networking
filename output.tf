@@ -9,10 +9,12 @@ output "public_subnet_ids" {
   value = aws_subnet.TF-Subnet-Public[*].id
 }
 
+## Outputs de la Subnet Privada de la APP
 output "private_app_subnet_ids" {
   value = aws_subnet.TF-Private-APP[*].id
 }
 
+## Outputs de la Subnet Privada de la DB
 output "private_db_subnet_ids" {
   value = aws_subnet.TF-Private-DB[*].id
 }
