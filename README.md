@@ -3,7 +3,11 @@ Repositorio: `ISC-2026-Martinez-Ourthe-Cabale/module-networking`
 Lenguaje: HCL (Terraform)
 ## Descripción
 Crea y configura toda la capa de red de la infraestructura sobre AWS. Incluye la VPC, subnets públicas y privadas (en múltiples AZs), Internet Gateway, NAT Gateways con Elastic IPs y las tablas de ruteo asociadas.
-Recursos que crea
+
+## Diagrama de VPC
+
+![Diagrama de VPC](./imagenes-doc/VPC.png)
+
 ## Recursos Creados
 
 | Recurso AWS | Cantidad | Descripción |
