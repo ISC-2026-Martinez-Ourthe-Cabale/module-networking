@@ -1,4 +1,4 @@
-🌐 module-networking
+🌐**module-networking**
 Repositorio: `ISC-2026-Martinez-Ourthe-Cabale/module-networking`  
 Lenguaje: HCL (Terraform)
 ## Descripción
